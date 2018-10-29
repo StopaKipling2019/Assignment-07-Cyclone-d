@@ -1,0 +1,178 @@
+public class Main {
+
+    public static double lat1, lat2, lon1, lon2, valA, valC, dist, distTot;
+    public static double radius = 6371;
+
+    public static void main(String[] args) {
+	// write your code here
+        System.out.print(distanceTot());
+        System.out.print(" km traveled");
+    }
+
+    public static double distance1 () {
+        lat1 = -15;
+        lat2 = -20;
+        lon1 = 25;
+        lon2 = 23;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance2 () {
+        lat1 = -20;
+        lat2 = -24;
+        lon1 = 23;
+        lon2 = 21;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance3 () {
+        lat1 = -24;
+        lat2 = -27;
+        lon1 = 21;
+        lon2 = 20;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance4 () {
+        lat1 = -27;
+        lat2 = -35;
+        lon1 = 20;
+        lon2 = 19;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance5 () {
+        lat1 = -35;
+        lat2 = -46;
+        lon1 = 19;
+        lon2 = 21;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance6 () {
+        lat1 = -46;
+        lat2 = -56;
+        lon1 = 21;
+        lon2 = 23;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance7 () {
+        lat1 = -56;
+        lat2 = -65;
+        lon1 = 23;
+        lon2 = 25;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance8 () {
+        lat1 = -65;
+        lat2 = -70;
+        lon1 = 25;
+        lon2 = 28;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance9 () {
+        lat1 = -70;
+        lat2 = -73;
+        lon1 = 28;
+        lon2 = 32;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance10 () {
+        lat1 = -73;
+        lat2 = -74;
+        lon1 = 32;
+        lon2 = 34;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance11 () {
+        lat1 = -74;
+        lat2 = -74;
+        lon1 = 34;
+        lon2 = 36;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distance12 () {
+        lat1 = -74;
+        lat2 = -74;
+        lon1 = 36;
+        lon2 = 39;
+
+        valA = (Math.pow(Math.sin((lat1 - lat2)/2), 2)) + ( (Math.cos(lat1)) * (Math.cos(lat2)) * (Math.pow(Math.sin((lon1-lon2)/2) ,2)) );
+        valC = 2 * (Math.atan2(Math.sqrt(valA), Math.sqrt(1-valA)));
+        dist = valC * radius;
+
+        return dist;
+    }
+
+    public static double distanceTot () {
+        distTot = distance1() + distance2() + distance3() + distance4() + distance5() + distance6() + distance7() + distance8() + distance9() + distance10() + distance11() + distance12();
+
+        return distTot;
+
+
+
+    }
+
+
+}
